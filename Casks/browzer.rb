@@ -4,22 +4,22 @@ cask "browzer" do
 
   on_macos do
     on_intel do
-      sha256 "74ee1b2b071e63959f39febaf31338de79b19eba02fb00dde8c2ca9304853fc4"
+      sha256 "e73f989c07bf6b9ec20ca3ac87b600bfe292bce93268b8224b8b7f6703454e30"
       url "https://github.com/browzeremb/browzer-cli/releases/download/v#{version}/browzer-cli_#{version}_darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "feb89f72af8ca3c7996fb6275821659d814b7bc912be5b95872ebb0270ccef8f"
+      sha256 "27017bbc8fc3df5bb2a92c194cb3b53dca1480fc4a17ec31d43a38226e9ca762"
       url "https://github.com/browzeremb/browzer-cli/releases/download/v#{version}/browzer-cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "86e53b24bbf69306939d0e3a36f307021202484c1ceecdb20d343ec60bf3c0d6"
+      sha256 "e488a12340d0899a25415ddafe982a5ebc208bb9ba9bc4601b3d0ce04fec5aaa"
       url "https://github.com/browzeremb/browzer-cli/releases/download/v#{version}/browzer-cli_#{version}_linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "becc758170f5a61047fab9adbf2afa465f472fe6eacad4632d25b5c483a29639"
+      sha256 "ac4033d2605f560b157a9933228824dfd27a38c9a6580c60b7687dee4e271073"
       url "https://github.com/browzeremb/browzer-cli/releases/download/v#{version}/browzer-cli_#{version}_linux_arm64.tar.gz"
     end
   end
